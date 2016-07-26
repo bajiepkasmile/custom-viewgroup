@@ -3,12 +3,30 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent">
 
-    <TextView
+    <ru.yandex.yamblz.CustomLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/content"
-        android:textSize="42sp"
-        android:gravity="center"
-        />
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ff00ff00"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ff0000ff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdasdasd"/>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="#ffff0000"/>
+
+    </ru.yandex.yamblz.CustomLayout>
 
 </FrameLayout>
